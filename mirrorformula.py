@@ -1,1 +1,0 @@
-choice = input('Enter what you would like to do:\n1. Object distance [u] \n2. Image distance [v]\n3. Focal length [f]')
