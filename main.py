@@ -3,7 +3,7 @@ print('Hello Mister')
 print('I am a ...... Everything you want as Calculator [Version 1.5 with little updates]')
 print('What do you want:')
 print('1. Currency Convertor \n2. Divider Which says everything \n3. Arithematic Calculator \n4. Temprature Convertor\n5. Speed Convertor \n6. Factorial Finder\n7. Distance Formula Calculator\n8. Statistics Calculator\n9. Factor Finder')
-choice = input('Enter Your Choice [1/2/3/4/5/6/7/8/9]- ')
+choice = input('User@Calc~#~ ')
 if choice == '1':
     exec(open("usdtoinr.py").read())
 elif choice == '2':
