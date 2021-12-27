@@ -1,3 +1,4 @@
+print('Note : This Repl Converts Into Farenheit, Celcius, Kelvin Only.')
 temp1 = input('From Which Unit: ')
 temp2 = input('To Which Unit: ')
 if temp1 == 'F':
@@ -39,3 +40,5 @@ elif temp1 == 'K':
             print('Invalid Input')
     else:
         print('We will update our database soon')
+else:
+  print('Sorry Our sytem is not so updated.')

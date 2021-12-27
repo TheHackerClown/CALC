@@ -14,3 +14,5 @@ elif speedunit == 'mps':
     print('Speed in Km/h: ',speed57)
   else:
     print('Invalid Input')
+else:
+  print('Sorry our database is not so updated')
