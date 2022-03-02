@@ -1,11 +1,16 @@
-name = input('Enter Your Name- ')
-print('hello ' + name)
+import pyfiglet
+import os
+os.system('clear')
+#os.system('cls')
+print(pyfiglet.figlet_format('Statistics   ', font='dotmatrix'))
+print('')
+print('')
 print('What do you want to compute: \n1. Mean\n2. Median\n3. Mode')
 choice = input('Enter Here[1/2/3] : ')
 if choice == '1':
 	frequentno = input('How many Intervals do you have:\n5\n6\n7\nEnter: ')
 	if frequentno == '5':
-		print('Please Compute the Xi of the ci them write it \nhint: Xi of ci = (lower limit + upper limit)/ 2')
+		print('Please Compute the Xi of the ci them write it as if we as for lower limit- upper limit you and our system will get confused \nhint: Xi of ci = (lower limit + upper limit)/ 2')
 		firstxi = int(input('Xi of ci 1: '))
 		twoxi = int(input('Xi of ci 2: '))
 		threexi = int(input('Xi of ci 3: '))
